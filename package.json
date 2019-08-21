@@ -1,0 +1,30 @@
+{
+    "name": "redux-fetch-all-middleware",
+    "version": "1.0.0",
+    "description": "Middleware for promise all with fetch api",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/clarktozer/redux-fetch-all-middleware.git"
+    },
+    "keywords": [
+        "redux",
+        "fetch",
+        "middleware"
+    ],
+    "author": "Clark Tozer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/clarktozer/redux-fetch-all-middleware/issues"
+    },
+    "homepage": "https://github.com/clarktozer/redux-fetch-all-middleware#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.1.5",
+        "@babel/core": "^7.1.6",
+        "@babel/preset-env": "^7.1.6"
+    }
+}

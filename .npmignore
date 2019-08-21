@@ -1,0 +1,9 @@
+npm-debug.log
+src
+test
+node_modules
+yarn.lock
+.babelrc
+.editorconfig
+.npmignore
+yarn-error.log
