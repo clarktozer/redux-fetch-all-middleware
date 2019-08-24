@@ -4,7 +4,8 @@
     "description": "Middleware for promise all with fetch api",
     "main": "dist/index.js",
     "scripts": {
-        "build": "babel src --out-dir dist"
+        "build": "babel ./src/index.ts --out-dir dist --extensions \".ts\"",
+        "check-types": "tsc"
     },
     "repository": {
         "type": "git",
@@ -24,6 +25,9 @@
     "devDependencies": {
         "@babel/cli": "^7.5.5",
         "@babel/core": "^7.5.5",
-        "@babel/preset-env": "^7.5.5"
+        "typescript": "^3.5.3"
+    },
+    "dependencies": {
+        "@babel/preset-typescript": "^7.3.3"
     }
 }
